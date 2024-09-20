@@ -1,0 +1,19 @@
+.light-dark-mode {
+  background-color: var(--background);
+  height: 100vh;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+
+.light-dark-mode h1 {
+  color: var(--text-primary);
+}
+
+.light-dark-mode button {
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}

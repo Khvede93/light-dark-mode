@@ -9,7 +9,7 @@ export const LightDarkMode = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   }
   return (
-    <div className='light-dark-mode'>
+    <div className='light-dark-mode' data-theme={theme}>
       <div className='container'>
         <h1>Light and Dark Mode</h1>
         <button onClick={handleToggleTheme}>
